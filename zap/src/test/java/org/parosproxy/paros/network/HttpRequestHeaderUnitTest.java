@@ -218,6 +218,7 @@ class HttpRequestHeaderUnitTest {
         // Then
         assertThat(header.getHeaderValues(HttpHeader.CONTENT_LENGTH), is(empty()));
     }
+
     private static Stream<Arguments> falseTestCssUrls() {
         return falseTestUrls("css");
     }
